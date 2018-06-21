@@ -77,7 +77,7 @@ export const __COMPONENT_STYLES__ = {
   subtitle: {
     color: 'white',
     textAlign: 'start',
-    fontSize: 36,
+    fontSize: 28,
     fontWeight: 1,
     margin: 0,
     marginTop: 0,

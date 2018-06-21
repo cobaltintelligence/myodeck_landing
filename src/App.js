@@ -57,10 +57,32 @@ class App extends Component {
                 ...styles.vertical}}>
               Myodeck
             </h1>
+
           </div>
           <div style={styles.vline}/>
 
           <div style={styles.pane}>
+            <p 
+              style={{
+                ...__COMPONENT_STYLES__.subtitle,
+                ...{
+                  color: White(1)
+                }}}>
+              A Cobalt Intelligence Project
+            </p>
+
+            <div style={styles.hline}/>
+            <br/>
+
+            <p 
+              style={{
+                ...__COMPONENT_STYLES__.paragraph,
+                ...{
+                  color: White(1)
+                }}}>
+              Project abstract lorem ipsum
+            </p>
+            <br/>
             <img 
               alt="Myodeck exercise device"
               src='/hopper.jpg' 
@@ -107,7 +129,8 @@ const styles = {
   },
   hline: {
     backgroundColor: White(1),
-    maxHeight: 1,
+    maxHeight: 2,
+    minHeight: 2,
     flex: 2,
     width: 400,
     marginTop: 10,
@@ -117,6 +140,7 @@ const styles = {
     flexDirection: 'column',
     display: 'flex',
     padding: 30,
+    paddingTop: 4,
   },
   hopper: {
     width: '50vw'
